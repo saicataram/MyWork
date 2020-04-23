@@ -5,16 +5,20 @@ Date: 23-Apr-2020
 Description: Python Assignments for practice; 
     a. Accept First Name & Last name from user
     b. Print the characters of First Name & Last Name in reverse.
-    c. Print Last Name & First Name with a space in between.
+    c. Print characters of Last Name & First Name with a space in between.
 ************************************************************************************* 
 """
 
 #function for reversing a string
-def reverse(string): 
-    string = "".join(reversed(string)) 
-    return string
-
-
+def reverse(str): 
+    reversedString=[]
+    index = len(str) 
+    while index > 0: 
+        reversedString += str[ index - 1 ] 
+        index = index - 1 
+    return reversedString
+    
+    
 fname= input("Enter First Name: ")
 lname= input("Enter Last Name: ")
 
