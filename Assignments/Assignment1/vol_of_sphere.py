@@ -2,7 +2,8 @@
 *************************************************************************************
 Author: SK
 Date: 23-Apr-2020
-Description: Python Assignments for practice
+Description: Python Assignments for practice; Print volume of a Sphere based on the 
+            Diameter value provided by user
 ************************************************************************************* 
 """
 
